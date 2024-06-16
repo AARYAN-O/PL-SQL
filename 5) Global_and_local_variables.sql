@@ -15,3 +15,6 @@ BEGIN
 		dbms_output.put_line(num3 + num4);
 	END;
 END;
+
+-- make sure that you have equal number of begin and end statements
+-- also make sure that for each pair of begin and end statements , you have one declare statement as well.
