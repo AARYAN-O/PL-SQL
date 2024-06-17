@@ -1,0 +1,9 @@
+DECLARE 
+     greetings varchar2(20) :='test statement';
+BEGIN
+     dbms_output.put_line(INITCAP(greetings));
+     dbms_output.put_line(SUBSTR(greetings,7,5));
+     dbms_output.put_line(UPPER('greetings'));
+     dbms_output.put_line(LOWER('GREETINGS'));
+
+END;
